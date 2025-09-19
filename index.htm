@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Health & Lifestyle HTML5 and Forms Assignment by Billionaire Omenda">
+  <title>Health & Lifestyle - HTML5 Assignment</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>🌿 Health & Lifestyle Portal</h1>
+    <p>Your hub for wellness, fitness, and mindful living.</p>
+  </header>
+
+  <main>
+    <!-- SECTION: LISTS -->
+    <section>
+      <h2>Top 5 Healthy Habits</h2>
+      <ul>
+        <li>🥗 Eat more fruits and vegetables</li>
+        <li>🚶 Walk at least 30 minutes daily</li>
+        <li>💧 Drink 8 glasses of water</li>
+        <li>😴 Sleep 7–8 hours</li>
+        <li>🧘 Practice mindfulness</li>
+      </ul>
+    </section>
+
+    <!-- SECTION: TABLE -->
+    <section>
+      <h2>Weekly Fitness Schedule</h2>
+      <table border="1">
+        <caption>Simple Workout Plan</caption>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Exercise</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>Cardio</td>
+            <td>30 min</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Strength Training</td>
+            <td>45 min</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Yoga</td>
+            <td>40 min</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- SECTION: MEDIA -->
+    <section>
+      <h2>Healthy Living Media</h2>
+      <figure>
+        <img src="healthy-food.jpg" alt="A bowl of fresh fruits and vegetables" width="300">
+        <figcaption>Fresh fruits and vegetables keep you energized.</figcaption>
+      </figure>
+
+      <audio controls>
+        <source src="relaxing-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <video width="320" height="240" controls>
+        <source src="yoga-demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- SECTION: FORM -->
+    <section>
+      <h2>Sign Up for Our Wellness Newsletter</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="on"><br><br>
+
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" min="10" max="100" required><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferences</legend>
+          <label for="goal">Your Main Goal:</label>
+          <select id="goal" name="goal" required>
+            <option value="">-- Select --</option>
+            <option value="fitness">Improve Fitness</option>
+            <option value="nutrition">Eat Healthier</option>
+            <option value="wellbeing">Better Mental Health</option>
+          </select><br><br>
+
+          <p>Preferred Activities:</p>
+          <label><input type="checkbox" name="activity" value="yoga"> Yoga</label>
+          <label><input type="checkbox" name="activity" value="running"> Running</label>
+          <label><input type="checkbox" name="activity" value="gym"> Gym</label><br><br>
+
+          <label for="feedback">Tell us about your current lifestyle:</label><br>
+          <textarea id="feedback" name="feedback" rows="4" cols="40" placeholder="Write something here..."></textarea>
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Subscribe Now">
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Health & Lifestyle by Billionaire Omenda. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
